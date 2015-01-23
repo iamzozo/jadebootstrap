@@ -1,0 +1,12 @@
+{
+    "pages" : [
+        {
+            "title" : "About us",
+            "link" : "about.html"
+        },
+        {
+            "title" : "Services",
+            "link" : "services.html"
+        }
+    ]
+}

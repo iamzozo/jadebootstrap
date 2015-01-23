@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title Hello
+        meta
+        link(href="css/style.css", rel="stylesheet", type="text/css")
+    body
+        #top.cf
+            .container
+                a(href="index.html").logo Brand
+                nav.nav
+                    each page in pages
+                        a(href=page.link)= page.title
+        #content.container
+            block content

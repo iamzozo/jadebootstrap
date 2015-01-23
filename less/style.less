@@ -1,0 +1,39 @@
+@primary: #009dd7;
+@secondary: #676184;
+@link: #31a685;
+@common: #28425d;
+
+@import "common";
+@import "elements";
+@import "typo";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #EDEDED;
+}
+
+#top {
+    width: 100%;
+    padding: 10px 0;
+    background: @secondary;
+    &, a {
+        color: #FFF;
+    }
+    .logo {
+        float: left;
+    }
+    .nav {
+        float: right;
+        a {
+            padding: 7px 15px;
+            display: inline-block;
+            margin-left: -4px;
+        }
+    }
+}
+
+#content {
+    padding: 50px;
+    background: #FFF;
+}
